@@ -1,0 +1,23 @@
+#grading system using IF and YES
+for the corresponding score
+
+score=int(input("Enter your score:
+
+#Determine the grade
+if 70 <= score <= 100:
+   Grade:"A"
+elif 60 <= score <= 69:
+   Grade:"B"
+elif 50 <= score <= 59:
+   Grade:"C"
+elif 45 <= score <= 49:
+   Grade:"D"
+elife 40 <= score <= 44:
+   Grade:"E"
+elife 0 <= score <= 39:
+   Grade:"F"
+else:
+   grade="Invalid score"
+
+#print the grade
+print("your grade is:", grade)
